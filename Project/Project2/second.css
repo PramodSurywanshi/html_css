@@ -1,0 +1,83 @@
+body{
+  /* padding: 20px; */
+  margin: 0px;
+}
+section{
+  border: 1px solid black;
+  height: 100vh;
+}
+.navbar{
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+justify-content: space-between;
+background-color: rgb(61,98,108);
+}
+.child{
+  border: 1px solid black;
+  height: 70px;
+
+  text-align: center;
+  justify-content: center;
+ 
+}
+.navbar,.child{
+  display: flex;
+  align-items: center;
+}
+#child1{
+  width: 263.99px; 
+  height: 60.8px;
+}
+#inner1{
+  border: 1px solid black;
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 167.99px;
+height: 60.8px;
+}
+#inner2{
+  border: 1px solid black;
+  height: 19.2px;
+  width: 167.99px;
+  font-weight: 1400;
+ color: aliceblue;
+  
+
+}
+#child2{
+  height: 56px;
+  width: 1255.21px; 
+}
+.navbar-nav-nav-dropdown{
+  border: 1px solid black;
+  width: 306.69px;
+  height: 44px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+}
+.navbar-button{
+  border: 1px solid black;
+  height: 56px;
+  width: 160.11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button{
+  height: 43.2px;
+  width: 134.51px;
+  background-color:rgb(61,98,108);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#button:hover{
+  background-color: white;
+  color: rgb(61,98,108);
+  }

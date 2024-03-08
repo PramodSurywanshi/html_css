@@ -1,0 +1,20 @@
+
+.Border{
+  margin: 200px;
+  padding: 100px;
+  border: 2px solid black;
+  height: 300px;
+  width: 900px;
+  text-align: center;
+  /* box-shadow: 10px 10px 10px brown; */
+  border-radius: 50px;
+  border-color: aqua;
+  /* box-shadow: rgba(204, 12, 12, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(9, 9, 152, 0.25) 0px 30px 60px -12px inset, rgba(186, 35, 35, 0.3) 0px 18px 36px -18px inset; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+h1{
+  text-shadow: 20px 20px 2px red;
+  text-transform: capitalize;
+
+}

@@ -1,0 +1,27 @@
+div{
+  border: 2px solid black;
+  height: 100px;
+  margin: 20px;
+}
+
+
+#A{
+  background-image: linear-gradient(Violet,Indigo,Blue,Green,Yellow,Orange,Red );
+}
+#A1{
+   background-image: linear-gradient(to top right, Violet,Indigo,Blue,Green,Yellow,Orange,Red );
+}
+#A2{
+  height: 200px;
+  background-image: linear-gradient(red,white,blue,green,yellow,orange);
+  }
+
+  #A3{
+    background-image: radial-gradient(Violet,Indigo,Blue,Green,Yellow,Orange,Red);
+  }
+
+  #A4{
+    height: 500px;
+    background-image:conic-gradient(Violet 75deg,Indigo 60deg,Blue 40deg,Green 60deg,Yellow 80deg,Orange 100deg);
+  }
+ 

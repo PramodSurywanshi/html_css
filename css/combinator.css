@@ -1,0 +1,15 @@
+div#First p{
+background-color: aqua;
+}
+
+div#Second>p{
+  background-color: blue;
+}
+
+div#Third+p{
+  background-color: chartreuse;
+}
+
+div#Third~#p1{
+  background-color: brown;
+}

@@ -1,0 +1,15 @@
+#Fi{
+  background-color: red;
+}
+.Se{
+  background-color: aqua;
+}
+*{
+  background-color: rgb(101, 164, 232);
+}
+h1{
+  background-color: blue;
+}
+h2,h3{
+  background-color: chartreuse;
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+#one{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+#two{
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+#three{
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.navbar {
+  border: 1px solid #e60808;
+}
+
+.pro-color1, .pro-color2, .pro-color3 {
+  border-width: 0 1px 1px 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+  position: relative;
+}
+
+.pro-color1 {
+  margin-top: -1px;
+  padding: 20px;
+  width: 50%;
+  left: 20%;
+}
+.pro-color2 {
+  margin-top: -18px;
+  padding: 20px;
+  width: 85%;
+  left: 5%;
+}
+
+.pro-color3 {
+  margin-top: -18px;
+  padding: 20px;
+  width: 50%;
+  left: 20%;
+}

@@ -1,0 +1,19 @@
+[target="123"]{
+  background-color: blue;
+}
+
+[title~="456"]{
+  background-color: aqua;
+}
+
+[class^="78"]{
+  background-color: coral;
+}
+
+[class$="75"]{
+  background-color: chartreuse;
+}
+
+[class*="1"]{
+  background-color: crimson;
+}

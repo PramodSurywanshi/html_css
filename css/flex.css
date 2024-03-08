@@ -1,0 +1,31 @@
+/* .Pramod{
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  flex: content;
+  justify-content: center;
+  align-items: center;
+} */
+.NAV{
+  border: 1px solid black;
+height: 80px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+cursor: pointer;
+}
+.Logo{
+  height: 50px;
+}
+#jio8{
+background-color: orangered;
+  color: orange;
+}
+#jio9{
+  background-color: orangered;
+  color: orange;
+}
+#jio10{
+background-color: orangered;
+  color: orange;
+}

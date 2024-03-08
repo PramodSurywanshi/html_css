@@ -1,0 +1,104 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+#main{
+  height: 99vh;
+  border: 1px solid black ;
+  /* background-image: url(https://media.giphy.com/media/W6A8f7qA1wvCtnmiRr/giphy.gif);
+background-image: cover; */
+}
+
+/* #parent{
+  border: 1px solid black ;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav{
+border: 1px solid black ;
+height: 40px;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#nav1{
+  gap: 10px;
+}
+#nav2{
+  gap: 10px;
+}
+
+.child{
+  border: 1px solid black ;
+  height: fit-content;
+  width: fit-content;
+} */
+
+#max, .nav, .child, .icon{
+  display: flex;
+}
+
+#max, .icon {
+  justify-content: space-between;
+}
+
+.child {
+  justify-content: center;
+}
+
+#max {
+  /* border: 1px solid #110e0e; */
+  height: 45px;
+  background-color: aqua;
+}
+
+.nav, .child, .icon {
+  align-items: center;
+}
+
+.nav {
+  justify-content: center;
+  height: 50px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+#nav1 {
+  width: 350px;
+}
+
+#nav2 {
+  width: 250px;
+}
+
+.child, .icon {
+  height: 40px;
+  
+  font-weight:700;
+}
+
+
+.child{
+  padding: 0 20px;
+  width: 75px;
+}
+
+.icon{
+  padding: 0 30px;
+  width:65px;
+}
+
+.child:hover,.icon:hover{
+  border-bottom: 1px solid #873232;
+}
+.bmw-logo{
+  border-bottom: none !important;
+}
+#main{
+  background-image: url(../img/CAR.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
