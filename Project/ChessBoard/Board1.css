@@ -1,0 +1,25 @@
+.chess_game{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 100px;
+}
+.chessboard{
+  border: 25px solid #000;
+  height: 480px;
+  width: 480px;
+  /* margin: 20px; */
+}
+.board{
+  height: 60px;
+  width: 60px;
+ float: left;
+  text-align: center;
+  font-size: 50px;
+}
+.box1{
+  background-color: aliceblue;
+}
+.box2{
+  background-color: grey;
+}
